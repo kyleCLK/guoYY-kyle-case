@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;/*字体大小和样式 */
+}
+.header{
+    height: 40px;
+    background-color: #333;
+}
+.header-nav{
+    width: 1226px;
+    height: 40px;
+    font-size:12px;
+    margin: auto auto;/* 保证中间盒子在头部正中不会跑掉 */
+    position: relative;
+}
+.header-nav span{
+    margin:0 4px 0 4px;/* 隔壁a标签的范围距离 */
+    color: #424242;
+}
+.header-nav a{
+    color:#b0b0b0;/* 链接字体颜色 */
+    text-decoration: none;/* 取消下划线 */
+}
+.header-nav a:hover{
+    color:#ffffff;
+}
+
+/* 头部左边部分 */
+.header-letf{
+    text-align: center;
+    align-items: center;/* 居中对齐 */
+    line-height: 40px;/* 行高可以居中 */
+    color:#b0b0b0;
+    float: left;
+}
+
+.header-right{
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+.header-right-User{
+    margin-right: 10px;
+    padding: 0 5px;
+    float: left;
+}
+.header-right-CartTrigger{
+    width: 120px;
+    background-color: #424242;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
