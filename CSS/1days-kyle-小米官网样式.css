@@ -5,6 +5,16 @@
 body{
     font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;/*字体大小和样式 */
 }
+@font-face{/*声明字体*/
+    font-family:"iconfont"; /*这个名字可以自己定义*!*/
+    src: url("fonts/iconfont.eot?7kkyc2");/*IE9 Compat Modes这里以及下面的src后面的地址填的都是自己本地的相对地址*/
+    src: url("fonts/iconfont.eot?7kkyc2#iefix")format("embedded-opentype"),/*IE6-IE8 */
+    url("fonts/iconfont.ttf?7kkyc2")format("truetype"),/* chrome、firefox、opera、Safari, Android, iOS 4.2+ Safari, Android, iOS*/
+    url("fonts/iconfont.woff?7kkyc2")format("woff"),/*Modern Browsers chrome、firefox*/
+    url("fonts/iconfont.svg?7kkyc2#icomoon")format("svg");/* iOS 4.1-*/
+    font-weight: normal;
+    font-style:normal;
+}
 .header{
     height: 40px;
     background-color: #333;
@@ -53,4 +63,7 @@ body{
     float: left;
     align-items: center;
     text-align: center;
+}
+.icon-CartTrigger{
+    font-family: "iconfont";/* 引用图标 */
 }
