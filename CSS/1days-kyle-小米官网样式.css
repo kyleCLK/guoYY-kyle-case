@@ -6,12 +6,12 @@ body{
     font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;/*字体大小和样式 */
 }
 @font-face{/*声明字体*/
-    font-family:"iconfont"; /*这个名字可以自己定义*!*/
-    src: url("fonts/iconfont.eot?7kkyc2");/*IE9 Compat Modes这里以及下面的src后面的地址填的都是自己本地的相对地址*/
-    src: url("fonts/iconfont.eot?7kkyc2#iefix")format("embedded-opentype"),/*IE6-IE8 */
-    url("fonts/iconfont.ttf?7kkyc2")format("truetype"),/* chrome、firefox、opera、Safari, Android, iOS 4.2+ Safari, Android, iOS*/
-    url("fonts/iconfont.woff?7kkyc2")format("woff"),/*Modern Browsers chrome、firefox*/
-    url("fonts/iconfont.svg?7kkyc2#icomoon")format("svg");/* iOS 4.1-*/
+    font-family:"icomoon"; /*这个名字可以自己定义*!*/
+    src: url("../fonts/icomoon.eot?7kkyc2");/*IE9 Compat Modes这里以及下面的src后面的地址填的都是自己本地的相对地址*/
+    src: url("../fonts/icomoon.eot?7kkyc2#iefix")format("embedded-opentype"),/*IE6-IE8 */
+    url("../fonts/icomoon.ttf?7kkyc2")format("truetype"),/* chrome、firefox、opera、Safari, Android, iOS 4.2+ Safari, Android, iOS*/
+    url("../fonts/icomoon.woff?7kkyc2")format("woff"),/*Modern Browsers chrome、firefox*/
+    url("../fonts/icomoon.svg?7kkyc2#icomoon")format("svg");/* iOS 4.1-*/
     font-weight: normal;
     font-style:normal;
 }
@@ -33,6 +33,7 @@ body{
 .header-nav a{
     color:#b0b0b0;/* 链接字体颜色 */
     text-decoration: none;/* 取消下划线 */
+
 }
 .header-nav a:hover{
     color:#ffffff;
@@ -59,11 +60,22 @@ body{
 }
 .header-right-CartTrigger{
     width: 120px;
+    height: 40px;
     background-color: #424242;
     float: left;
     align-items: center;
+    line-height: 40px;
     text-align: center;
 }
-.icon-CartTrigger{
-    font-family: "iconfont";/* 引用图标 */
+.header-right-CartTrigger a{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+}
+.header-right-CartTrigger span{
+    font-family: "icomoon";/* 引用图标 */
+    color: #b0b0b0;
+    font-size: 20px;
+    vertical-align: -4px;/* 垂直对齐方式 */
+    line-height: 20px;
 }
